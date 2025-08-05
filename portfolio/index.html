@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashal Roghani | Creative Portfolio</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0;">
+
+    <!-- HEADER -->
+    <header style="text-align:center; background:#111; color:white; padding:20px;">
+        <h1 style="margin:10px 0;">Mashal Roghani</h1>
+        <p>Front-End Developer | UI/UX Enthusiast</p>
+        <nav>
+            <ul style="list-style:none; display:flex; justify-content:center; gap:20px; padding:0;">
+                <li><a href="#about" style="color:#fff; text-decoration:none;">About</a></li>
+                <li><a href="#projects" style="color:#fff; text-decoration:none;">Projects</a></li>
+                <li><a href="#skills" style="color:#fff; text-decoration:none;">Skills</a></li>
+                <li><a href="#media" style="color:#fff; text-decoration:none;">Media</a></li>
+                <li><a href="#contact" style="color:#fff; text-decoration:none;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" style="text-align:center; padding:50px; background:#f4f4f4;">
+        <h2>"Design is not just what it looks like, but how it works."</h2>
+        <p>Welcome to my creative space! Explore my journey as a developer and designer.</p>
+        <button onclick="window.location.href='#contact'" style="padding:10px 20px; margin:10px; cursor:pointer;">&#128187; Hire Me</button>
+        <button onclick="window.location.href='#projects'" style="padding:10px 20px; margin:10px; cursor:pointer;">&#128640; View Projects</button>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" style="padding:30px;">
+        <h2>About Me</h2>
+        <img src="mashal portfolio.jpg" alt="mashal.jpg" width="200" style="border-radius:50%; display:block; margin:20px auto;">
+        <p style="text-align:center; max-width:600px; margin:auto;">Hello! I'm Mashal, a passionate Front-End Developer who loves creating clean, functional, and aesthetic websites. My goal is to blend creativity with code for user-friendly experiences.</p>
+    </section>
+    <hr>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" style="padding:30px;">
+        <h2>My Projects</h2>
+        <article>
+            <h3>💻 E-Commerce App</h3>
+            <p>A responsive online store with a secure payment system.</p>
+            <button style="cursor:pointer;">View Project</button>
+        </article>
+        <article>
+            <h3>🌐 Portfolio Website</h3>
+            <p>A clean portfolio site built with HTML, CSS & JS.</p>
+            <button style="cursor:pointer;">View Project</button>
+        </article>
+        <article>
+            <h3>🎮 Interactive Quiz</h3>
+            <p>A fun quiz app with real-time leaderboard.</p>
+            <button style="cursor:pointer;">View Project</button>
+        </article>
+    </section>
+    <hr>
+
+    <!-- SKILLS -->
+    <section id="skills" style="padding:30px;">
+        <h2>Skills Summary</h2>
+        <table border="1" cellpadding="8" cellspacing="5" style="margin:auto;">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>UI/UX Design</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+
+    <!-- MEDIA -->
+    <section id="media" style="padding:30px; text-align:center;">
+        <h2>Media</h2>
+        <h3>Intro Video</h3>
+        <video width="320" height="240" controls poster="thumbnail.jpg">
+            <source src="into video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Background Music</h3>
+        <audio controls autoplay loop>
+            <source src="AIVoiceGenerator_com_5-08-2025T7_3_24_ Salli.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    <hr>
+
+    <!-- DOWNLOAD -->
+    <section style="text-align:center; padding:30px;">
+        <h2>Download Resume</h2>
+        <a href="mashal resume.pptx" download><button style="padding:10px 15px; cursor:pointer;">⬇ Download PDF</button></a>
+    </section>
+    <hr>
+
+    <!-- CONTACT -->
+    <section id="contact" style="padding:30px;">
+        <h2>Contact Me</h2>
+        <form action="mailto:mashalroghani549@gmail.com" method="post" enctype="text/plain" style="max-width:400px; margin:auto;">
+            <input type="hidden" name="subject" value="Portfolio Contact Form">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="e.g., John Doe" required style="width:100%; padding:8px;"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required style="width:100%; padding:8px;"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Write your message..." required style="width:100%; padding:8px;"></textarea><br><br>
+
+            <button type="submit" style="padding:10px 20px; margin:5px; cursor:pointer;">Send</button>
+            <button type="reset" style="padding:10px 20px; margin:5px; cursor:pointer;">Clear</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="text-align:center; background:#111; color:white; padding:20px;">
+        <p>&copy; 2025 Mashal Roghani | All Rights Reserved</p>
+        <p>Let's Connect:</p>
+        <a href="mailto:mashalroghani549@gmail.com" style="color:white;">Email</a> |
+        <a href="https://linkedin.com/in/mashal-roghani" target="_blank" style="color:white;">LinkedIn</a> |
+        <a href="https://github.com/mashal233" target="_blank" style="color:white;">GitHub</a>
+    </footer>
+
+</body>
+</html>
